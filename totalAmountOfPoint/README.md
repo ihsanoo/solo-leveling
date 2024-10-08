@@ -16,3 +16,6 @@ Notes:
 our team always plays 10 matches in the championship
 0 <= x <= 4
 0 <= y <= 4
+
+
+sc : https://www.codewars.com/kata/5bb904724c47249b10000131/javascript 
