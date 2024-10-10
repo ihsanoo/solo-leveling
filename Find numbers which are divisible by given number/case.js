@@ -21,3 +21,11 @@ function divisibleBy(numbers, divisor){
   console.log(divisibleBy([1,2,3,4,5,6,7,8,9,10], 3))
   console.log(divisibleBy([1,2,3,4,5,6,7,8,9,10], 4))
   console.log(divisibleBy([1,2,3,4,5,6,7,8,9,10], 5))
+
+
+
+// cara laing menggunakan method filter
+
+//   function divisibleBy(numbers, divisor) {
+//     return numbers.filter(n => n % divisor === 0)
+//   }
