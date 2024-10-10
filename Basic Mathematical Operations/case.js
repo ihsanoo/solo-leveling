@@ -26,10 +26,31 @@ function basicOp(operation, value1, value2){
     }
   }
 
+//OR
 
+function basicOp2(operation, value1, value2) {
+    switch (operation) {
+        case '+':
+            return value1 + value2;
+        case '-':
+            return value1 - value2;
+        case '*':
+            return value1 * value2;
+        case '/':
+            return value1 / value2;
+        default:
+            return 0;
+    }
+}
   // test case
 
   console.log(basicOp('+', 2, 3))
   console.log(basicOp('-', 2, 3))
   console.log(basicOp('*', 2, 3))
   console.log(basicOp('/', 49,7 ))
+
+
+  console.log(basicOp2('+', 2, 3))
+  console.log(basicOp2('-', 2, 3))
+  console.log(basicOp2('*', 2, 3))
+  console.log(basicOp2('/', 49,7 ))
